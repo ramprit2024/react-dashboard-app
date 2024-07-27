@@ -1,0 +1,263 @@
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Outfit:400,500,600,700&subset=latin")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap")
+        link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="icon", type="image/png", sizes="32x32", href="shuffle-for-tailwind.png")
+        script(src="js/main.js")
+    body(class="antialiased bg-body text-body font-body")
+        div(class="")
+            section(class="relative overflow-hidden")
+                div(class="bg-coolGray-900")
+                    nav(class="flex justify-between p-6 px-4")
+                        div(class="flex justify-between items-center w-full")
+                            div(class="w-1/2 xl:w-1/3")
+                                a(class="block max-w-max", href="#")
+                                    img(class="h-8", src="flex-ui-assets/logos/flex-ui-green.svg", alt="")
+                            div(class="w-1/2 xl:w-1/3")
+                                ul(class="hidden xl:flex xl:justify-center")
+                                    li(class="mr-12")
+                                        a(class="text-coolGray-400 hover:text-coolGray-50 font-medium", href="#") Product
+                                    li(class="mr-12")
+                                        a(class="text-coolGray-400 hover:text-coolGray-50 font-medium", href="#") Features
+                                    li(class="mr-12")
+                                        a(class="text-coolGray-400 hover:text-coolGray-50 font-medium", href="#") Resources
+                                    li
+                                        a(class="text-coolGray-400 hover:text-coolGray-50 font-medium", href="#") Pricing
+                            div(class="w-1/2 xl:w-1/3")
+                                div(class="hidden xl:flex items-center justify-end")
+                                    a(class="inline-block py-2 px-4 mr-2 leading-5 text-coolGray-400 hover:text-coolGray-50 bg-transparent font-medium rounded-md", href="#") Log In
+                                    a(class="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Sign Up
+                        button(class="navbar-burger self-center xl:hidden")
+                            svg(width="35", height="35", viewbox="0 0 32 32", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                rect(class="text-coolGray-800", width="32", height="32", rx="6", fill="currentColor")
+                                path(class="text-coolGray-400", d="M7 12H25C25.2652 12 25.5196 11.8946 25.7071 11.7071C25.8946 11.5196 26 11.2652 26 11C26 10.7348 25.8946 10.4804 25.7071 10.2929C25.5196 10.1054 25.2652 10 25 10H7C6.73478 10 6.48043 10.1054 6.29289 10.2929C6.10536 10.4804 6 10.7348 6 11C6 11.2652 6.10536 11.5196 6.29289 11.7071C6.48043 11.8946 6.73478 12 7 12ZM25 15H7C6.73478 15 6.48043 15.1054 6.29289 15.2929C6.10536 15.4804 6 15.7348 6 16C6 16.2652 6.10536 16.5196 6.29289 16.7071C6.48043 16.8946 6.73478 17 7 17H25C25.2652 17 25.5196 16.8946 25.7071 16.7071C25.8946 16.5196 26 16.2652 26 16C26 15.7348 25.8946 15.4804 25.7071 15.2929C25.5196 15.1054 25.2652 15 25 15ZM25 20H7C6.73478 20 6.48043 20.1054 6.29289 20.2929C6.10536 20.4804 6 20.7348 6 21C6 21.2652 6.10536 21.5196 6.29289 21.7071C6.48043 21.8946 6.73478 22 7 22H25C25.2652 22 25.5196 21.8946 25.7071 21.7071C25.8946 21.5196 26 21.2652 26 21C26 20.7348 25.8946 20.4804 25.7071 20.2929C25.5196 20.1054 25.2652 20 25 20Z", fill="currentColor")
+                    div(class="navbar-menu hidden fixed top-0 z-50 left-0 w-full h-full bg-coolGray-900 bg-opacity-50")
+                        div(class="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-coolGray-900")
+                            nav(class="relative p-6 h-full overflow-y-auto")
+                                div(class="flex flex-col justify-between h-full")
+                                    a(class="inline-block", href="#")
+                                        img(class="h-8", src="flex-ui-assets/logos/flex-ui-green.svg", alt="")
+                                    ul(class="py-6")
+                                        li
+                                            a(class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md", href="#") Product
+                                        li
+                                            a(class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md", href="#") Features
+                                        li
+                                            a(class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md", href="#") Pricing
+                                        li
+                                            a(class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md", href="#") Resources
+                                    div(class="flex flex-wrap")
+                                        div(class="w-full mb-2")
+                                            a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-400 hover:text-white bg-transparent font-medium text-center rounded-md", href="#") Log In
+                                        div(class="w-full")
+                                            a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Sign Up
+                            a(class="navbar-close absolute top-5 p-4 right-3", href="#")
+                                svg(width="12", height="12", viewbox="0 0 12 12", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M6.94004 5.99988L11.14 1.80655C11.2656 1.68101 11.3361 1.51075 11.3361 1.33321C11.3361 1.15568 11.2656 0.985415 11.14 0.859879C11.0145 0.734344 10.8442 0.663818 10.6667 0.663818C10.4892 0.663818 10.3189 0.734344 10.1934 0.859879L6.00004 5.05988L1.80671 0.859879C1.68117 0.734344 1.51091 0.663819 1.33337 0.663819C1.15584 0.663819 0.985576 0.734344 0.860041 0.859879C0.734505 0.985415 0.66398 1.15568 0.66398 1.33321C0.66398 1.51075 0.734505 1.68101 0.860041 1.80655L5.06004 5.99988L0.860041 10.1932C0.797555 10.2552 0.747959 10.3289 0.714113 10.4102C0.680267 10.4914 0.662842 10.5785 0.662842 10.6665C0.662842 10.7546 0.680267 10.8417 0.714113 10.9229C0.747959 11.0042 0.797555 11.0779 0.860041 11.1399C0.922016 11.2024 0.99575 11.252 1.07699 11.2858C1.15823 11.3197 1.24537 11.3371 1.33337 11.3371C1.42138 11.3371 1.50852 11.3197 1.58976 11.2858C1.671 11.252 1.74473 11.2024 1.80671 11.1399L6.00004 6.93988L10.1934 11.1399C10.2554 11.2024 10.3291 11.252 10.4103 11.2858C10.4916 11.3197 10.5787 11.3371 10.6667 11.3371C10.7547 11.3371 10.8419 11.3197 10.9231 11.2858C11.0043 11.252 11.0781 11.2024 11.14 11.1399C11.2025 11.0779 11.2521 11.0042 11.286 10.9229C11.3198 10.8417 11.3372 10.7546 11.3372 10.6665C11.3372 10.5785 11.3198 10.4914 11.286 10.4102C11.2521 10.3289 11.2025 10.2552 11.14 10.1932L6.94004 5.99988Z", fill="#8896AB")
+                div(class="relative pt-16 pb-20 md:pb-24 md:pt-32 bg-coolGray-900")
+                    div(class="container px-4 mx-auto")
+                        div(class="flex flex-wrap -mx-4")
+                            div(class="w-full md:w-1/2 px-4 mb-12 md:mb-0")
+                                span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-green-500 uppercase rounded-9xl") Header
+                                h1(class="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight text-white font-bold tracking-tight") Lorem ipsum dolor sit amet.
+                                p(class="mb-8 text-lg md:text-xl text-coolGray-400 font-medium") We’re different. Flex is the only saas business platform that lets you run your business.
+                                div(class="flex flex-wrap mb-8 md:mb-16")
+                                    div(class="w-full md:w-auto py-1 md:py-0 md:mr-4")
+                                        a(class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Request a Demo
+                                    div(class="w-full md:w-auto py-1 md:py-0")
+                                        a(class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-100 bg-coolGray-700 hover:bg-coolGray-800 font-medium text-center focus:ring-2 focus:ring-coolGray-700 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Sign Up
+                                p(class="mb-6 md:mb-4 text-sm text-coolGray-400 font-medium text-center md:text-left") Trusted by brands all around the world
+                                div(class="flex flex-wrap -mx-3")
+                                    div(class="w-full md:w-auto px-3 mb-6 lg:mb-0")
+                                        img(class="mx-auto", src="flex-ui-assets/brands/welytics.svg", alt="")
+                                    div(class="w-full md:w-auto px-3 mb-6 lg:mb-0")
+                                        img(class="mx-auto", src="flex-ui-assets/brands/jiggle.svg", alt="")
+                                    div(class="w-full md:w-auto px-3 mb-6 lg:mb-0")
+                                        img(class="mx-auto", src="flex-ui-assets/brands/wishelp.svg", alt="")
+                                    div(class="w-full md:w-auto px-3")
+                                        img(class="mx-auto", src="flex-ui-assets/brands/resecurb.svg", alt="")
+                            div(class="w-full md:hidden px-4")
+                                div(class="relative w-58 mx-auto")
+                                    img(class="absolute p-1 ml-2 sm:ml-4 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-10/12 object-cover rounded", src="https://images.unsplash.com/photo-1530181762988-ebf88700f7c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=731&h=470")
+                                    img(class="mx-auto", src="https://images.unsplash.com/photo-1532096852779-fbc63d1ae993?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=900&h=525", alt="")
+                    div(class="md:absolute md:-right-96 md:top-1/2 md:transform md:-translate-y-1/2 md:translate-x-64 lg:translate-x-32 xl:-translate-x-7 md:mt-24 hidden md:block")
+                        img(class="absolute left-12 top-1/2 transform -translate-y-64", src="flex-ui-assets/elements/circle4-yellow.svg", alt="")
+                        img(class="relative z-10", src="flex-ui-assets/images/headers/mockup-dark2.png", alt="")
+                        img(class="absolute z-20 top-6 left-36 transform translate-x-4", src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=731&h=470")
+            section(class="py-20 xl:pt-24 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="mb-8 text-center")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") Logos of our clients
+                        h3(class="mb-4 text-4xl md:text-5xl text-coolGray-900 font-bold tracking-tighter") Top companies in the industry trust us
+                        p(class="text-lg md:text-xl text-coolGray-500 font-medium") Unique SaaS platform integrating CRM, marketing automation & commerce
+                    div(class="flex flex-wrap justify-center -mx-4")
+                        div(class="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0")
+                            div(class="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-coolGray-50 shadow-md")
+                                img(class="mx-auto", src="flex-ui-assets/brands/logo-clouds/jiggle-logo.svg", alt="")
+                        div(class="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0")
+                            div(class="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-coolGray-50 shadow-md")
+                                img(class="mx-auto", src="flex-ui-assets/brands/logo-clouds/symtric-logo.svg", alt="")
+                        div(class="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0")
+                            div(class="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-coolGray-50 shadow-md")
+                                img(class="mx-auto", src="flex-ui-assets/brands/logo-clouds/wishelp-logo.svg", alt="")
+                        div(class="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 md:mb-0")
+                            div(class="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-coolGray-50 shadow-md")
+                                img(class="mx-auto", src="flex-ui-assets/brands/logo-clouds/resecurb-logo.svg", alt="")
+                        div(class="w-1/2 md:w-1/3 lg:w-1/5 px-4")
+                            div(class="flex items-center h-32 md:h-36 px-4 md:px-8 rounded-md bg-coolGray-50 shadow-md")
+                                img(class="mx-auto", src="flex-ui-assets/brands/logo-clouds/welytics-logo.svg", alt="")
+            section(class="py-24 md:py-32 bg-white overflow-hidden", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap lg:items-center -mx-4")
+                        div(class="w-full md:w-1/2 px-4 mb-16 md:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") Key Features
+                            h1(class="mb-8 text-4xl md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter") Unlock deeper understanding of user behavior
+                            p(class="mb-6 text-lg md:text-xl text-coolGray-500 font-medium") Our platform combines CRM, project management, collaboration, and invoicing tools to streamline your business operations securely.
+                            a(class="inline-block py-4 px-5 w-full md:w-auto text-base leading-4 text-green-50 bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Begin Your Journey
+                        div(class="w-full md:w-1/2 px-4")
+                            div(class="relative mx-auto md:mr-0 max-w-max")
+                                img(class="absolute z-10 -left-8 -top-8 w-28 md:w-auto text-yellow-400", src="flex-ui-assets/elements/circle3-yellow.svg", alt="")
+                                img(class="absolute z-10 -right-7 -bottom-8 w-28 md:w-auto text-blue-500", src="flex-ui-assets/elements/dots3-blue.svg", alt="")
+                                img(src="https://images.unsplash.com/photo-1532096852779-fbc63d1ae993?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+            section(class="py-24 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap items-center justify-between -mx-4 mb-16")
+                        div(class="w-full md:w-1/2 px-4 mb-8 md:mb-0")
+                            div(class="max-w-md")
+                                span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") Our Team
+                                h3(class="mb-4 text-4xl md:text-5xl font-bold tracking-tighter") Discover our team
+                                p(class="text-lg md:text-xl text-coolGray-500 font-medium") Experienced in digital business
+                        div(class="w-full md:w-auto px-4")
+                            div(class="flex flex-wrap justify-center")
+                                div(class="w-full md:w-auto py-1 md:py-0 md:mr-4")
+                                    a(class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm", href="#") Check Available Roles
+                                div(class="w-full md:w-auto py-1 md:py-0")
+                                    a(class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-800 font-medium text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-coolGray-200 focus:ring-opacity-50 border border-coolGray-200 rounded-md shadow-sm", href="#") Learn More About Us
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4 mb-12")
+                            div(class="max-w-max mx-auto")
+                                img(class="block mb-8", src="https://images.unsplash.com/photo-1624880357913-a8539238245b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=359&h=384", alt="")
+                                h3(class="mb-2 text-3xl md:text-4xl leading-tight font-semibold") Meet Macauley Herring
+                                span(class="text-lg font-medium text-green-500") Founder & CEO
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4 mb-12")
+                            div(class="max-w-max mx-auto")
+                                img(class="block mb-8", src="https://images.unsplash.com/photo-1664382951070-70a6e4ef8ed0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=359&h=384", alt="")
+                                h3(class="mb-2 text-3xl md:text-4xl leading-tight font-semibold") Introducing Ivan Mathews
+                                span(class="text-lg font-medium text-green-500") Chief Technology Officer
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4 mb-12")
+                            div(class="max-w-max mx-auto")
+                                img(class="block mb-8", src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=359&h=384", alt="")
+                                h3(class="mb-2 text-3xl md:text-4xl leading-tight font-semibold") Introducing Elen Benitez
+                                span(class="text-lg font-medium text-green-500") Chief Product Officer
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-0")
+                            div(class="max-w-max mx-auto")
+                                img(class="block mb-8", src="https://images.unsplash.com/photo-1563461660947-507ef49e9c47?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=359&h=384", alt="")
+                                h3(class="mb-2 text-3xl md:text-4xl leading-tight font-semibold") Meet Macauley Herring
+                                span(class="text-lg font-medium text-green-500") Customer Success Specialist
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 md:mb-0")
+                            div(class="max-w-max mx-auto")
+                                img(class="block mb-8", src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=359&h=384", alt="")
+                                h3(class="mb-2 text-3xl md:text-4xl leading-tight font-semibold") Meet Alya Levine
+                                span(class="text-lg font-medium text-green-500") Backend Development Expert
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="max-w-max mx-auto")
+                                img(class="block mb-8", src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=359&h=384", alt="")
+                                h3(class="mb-2 text-3xl md:text-4xl leading-tight font-semibold") Meet Rose Hernandez
+                                span(class="text-lg font-medium text-green-500") iOS Development Specialist
+            section(class="py-24 md:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap items-center justify-center lg:justify-between -mx-4")
+                        div(class="w-auto px-4 order-last lg:order-first")
+                            button(class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-coolGray-50 hover:bg-coolGray-100")
+                                svg(width="12", height="14", viewbox="0 0 12 14", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M10.9999 6H3.4099L6.7099 2.71C6.8982 2.5217 7.00399 2.2663 7.00399 2C7.00399 1.7337 6.8982 1.47831 6.7099 1.29C6.52159 1.1017 6.2662 0.995911 5.9999 0.995911C5.73359 0.995911 5.4782 1.1017 5.2899 1.29L0.289896 6.29C0.198856 6.38511 0.127491 6.49725 0.0798963 6.62C-0.0201217 6.86346 -0.0201217 7.13654 0.0798963 7.38C0.127491 7.50275 0.198856 7.6149 0.289896 7.71L5.2899 12.71C5.38286 12.8037 5.49346 12.8781 5.61532 12.9289C5.73718 12.9797 5.86788 13.0058 5.9999 13.0058C6.13191 13.0058 6.26261 12.9797 6.38447 12.9289C6.50633 12.8781 6.61693 12.8037 6.7099 12.71C6.80363 12.617 6.87802 12.5064 6.92879 12.3846C6.97956 12.2627 7.00569 12.132 7.00569 12C7.00569 11.868 6.97956 11.7373 6.92879 11.6154C6.87802 11.4936 6.80363 11.383 6.7099 11.29L3.4099 8H10.9999C11.2651 8 11.5195 7.89465 11.707 7.70711C11.8945 7.51957 11.9999 7.26522 11.9999 7C11.9999 6.73479 11.8945 6.48043 11.707 6.2929C11.5195 6.10536 11.2651 6 10.9999 6Z", fill="#404F65")
+                        div(class="w-full lg:w-2/6 px-4 mb-12 lg:mb-0")
+                            div(class="flex items-center")
+                                img(class="w-20 md:w-24 h-20 md:h-24 mr-6 rounded-full", src="https://images.unsplash.com/photo-1556360853-b581cf3c8eb2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=88&h=88", alt="")
+                                div
+                                    h3(class="mb-2 text-xl md:text-2xl font-semibold") Lila Chen
+                                    span(class="text-lg text-coolGray-500 font-medium") CTO & Co-founder at TechFlex
+                        div(class="w-full lg:w-2/6 px-4 mb-12 lg:mb-0")
+                            div(class="relative pt-12 pb-6 sm:p-6")
+                                img(class="absolute top-0 left-0", src="flex-ui-assets/elements/testimonials/quote-top-green.svg", alt="")
+                                img(class="absolute bottom-0 right-0", src="flex-ui-assets/elements/testimonials/quote-down-green.svg", alt="")
+                                div(class="relative")
+                                    h2(class="text-2xl font-semibold tracking-tighter") A perfect tool for those seeking work-life balance without compromising on earnings.
+                        div(class="w-auto px-4 order-last")
+                            button(class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-coolGray-50 hover:bg-coolGray-100")
+                                svg(width="12", height="14", viewbox="0 0 12 14", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M11.92 6.62C11.8724 6.49725 11.801 6.38511 11.71 6.29L6.71 1.29C6.61676 1.19676 6.50607 1.1228 6.38425 1.07234C6.26243 1.02188 6.13186 0.995911 6 0.995911C5.7337 0.995911 5.4783 1.1017 5.29 1.29C5.19676 1.38324 5.1228 1.49393 5.07234 1.61575C5.02188 1.73758 4.99591 1.86814 4.99591 2C4.99591 2.2663 5.1017 2.5217 5.29 2.71L8.59 6H1C0.734784 6 0.48043 6.10536 0.292893 6.2929C0.105357 6.48043 0 6.73479 0 7C0 7.26522 0.105357 7.51957 0.292893 7.70711C0.48043 7.89465 0.734784 8 1 8H8.59L5.29 11.29C5.19627 11.383 5.12188 11.4936 5.07111 11.6154C5.02034 11.7373 4.9942 11.868 4.9942 12C4.9942 12.132 5.02034 12.2627 5.07111 12.3846C5.12188 12.5064 5.19627 12.617 5.29 12.71C5.38296 12.8037 5.49356 12.8781 5.61542 12.9289C5.73728 12.9797 5.86799 13.0058 6 13.0058C6.13201 13.0058 6.26272 12.9797 6.38458 12.9289C6.50644 12.8781 6.61704 12.8037 6.71 12.71L11.71 7.71C11.801 7.6149 11.8724 7.50275 11.92 7.38C12.02 7.13654 12.02 6.86346 11.92 6.62Z", fill="#404F65")
+            section(class="relative py-24 md:pb-32 bg-white overflow-hidden", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="relative container px-4 mx-auto")
+                    div(class="xl:max-w-4xl mb-18 md:mb-16 mx-auto text-center")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") Create Your Website
+                        h1(class="mb-4 text-3xl md:text-4xl leading-tight font-heading font-bold") Transform Your Ideas into Reality
+                        p(class="mb-6 text-lg md:text-xl text-coolGray-500 font-heading") Flex is a Modern SaaS Business. We embrace diversity, innovative work methods, and transparency as our core values.
+                        a(class="inline-flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto text-lg leading-7 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm", href="#") Start Building Now
+                    div(class="relative max-w-4xl mx-auto")
+                        img(class="absolute top-0 left-0 -mt-6 lg:-mt-12 -ml-6 lg:-ml-12 w-20 lg:w-auto z-10", src="flex-ui-assets/elements/circle3-yellow.svg", alt="")
+                        img(class="absolute bottom-0 right-0 -mb-6 lg:-mb-10-mr-6 lg:-mr-12 w-20 lg:w-auto", src="flex-ui-assets/elements/dots3-blue.svg", alt="")
+                        img(class="relative", src="https://images.unsplash.com/photo-1540106552992-dc0a6dd3787c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTU0ODN8&ixlib=rb-4.0.3&q=85&w=1416&h=709", alt="")
+            section(class="bg-white overflow-hidden", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap lg:items-center pt-24 pb-12 -mx-4")
+                        div(class="w-full md:w-3/4 px-4")
+                            a(class="block mb-8 max-w-max", href="#")
+                                img(class="h-8", src="flex-ui-assets/logos/flex-ui-green-light.svg", alt="")
+                            p(class="mb-12 text-base md:text-lg text-coolGray-400 font-medium md:max-w-sm") Create your own Software As A Service Application with Artemis Solutions.
+                            div(class="mb-12 md:mb-0 flex flex-wrap -mx-3 md:-mx-6")
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Services
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Characteristics
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Cost
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Support
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Jobs
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Support
+                                div(class="w-full md:w-auto p-3 md:py-0 md:px-6")
+                                    a(class="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium", href="#") Confidentiality
+                        div(class="w-full md:w-1/4 px-4")
+                            div(class="lg:pr-10 lg:ml-auto lg:max-w-max")
+                                a(class="block mb-4", href="#")
+                                    img(src="flex-ui-assets/elements/app-store.svg", alt="")
+                                |                 
+                                a(class="block", href="#")
+                                    img(src="flex-ui-assets/elements/google-play.svg", alt="")
+                div(class="border-b border-coolGray-100")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap items-center py-12 md:pb-32")
+                        div(class="w-full md:w-1/2 mb-6 md:mb-0")
+                            p(class="text-coolGray-400 font-medium") © 2021 Artemis. All rights reserved.
+                        div(class="w-full md:w-1/2")
+                            div(class="flex flex-wrap md:justify-end -mx-5")
+                                div(class="px-5")
+                                    a(class="inline-block text-coolGray-300 hover:text-coolGray-400", href="#")
+                                        svg(width="10", height="18", viewbox="0 0 10 18", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                            path(fill-rule="evenodd", clip-rule="evenodd", d="M6.63494 17.7273V9.76602H9.3583L9.76688 6.66246H6.63494V4.68128C6.63494 3.78301 6.88821 3.17085 8.20297 3.17085L9.87712 3.17017V0.394238C9.5876 0.357335 8.59378 0.272728 7.43708 0.272728C5.0217 0.272728 3.3681 1.71881 3.3681 4.37391V6.66246H0.636475V9.76602H3.3681V17.7273H6.63494Z", fill="currentColor")
+                                div(class="px-5")
+                                    a(class="inline-block text-coolGray-300 hover:text-coolGray-400", href="#")
+                                        svg(width="19", height="16", viewbox="0 0 19 16", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                            path(fill-rule="evenodd", clip-rule="evenodd", d="M18.8181 2.14597C18.1356 2.44842 17.4032 2.65355 16.6336 2.74512C17.4194 2.27461 18.0208 1.5283 18.3059 0.641757C17.5689 1.07748 16.7553 1.39388 15.8885 1.56539C15.1943 0.824879 14.2069 0.363636 13.1118 0.363636C11.0108 0.363636 9.30722 2.06718 9.30722 4.16706C9.30722 4.46488 9.34083 4.75576 9.40574 5.03391C6.24434 4.87512 3.44104 3.36048 1.56483 1.05894C1.23686 1.61985 1.05028 2.27342 1.05028 2.97109C1.05028 4.29106 1.72243 5.45573 2.74225 6.13712C2.11877 6.11627 1.53237 5.94476 1.01901 5.65967V5.70718C1.01901 7.54979 2.33086 9.08761 4.07031 9.43761C3.75161 9.52336 3.41555 9.57088 3.06789 9.57088C2.82222 9.57088 2.58464 9.54655 2.35171 9.50018C2.8361 11.0125 4.24067 12.1123 5.90483 12.1424C4.6034 13.1622 2.96243 13.7683 1.1801 13.7683C0.873008 13.7683 0.570523 13.7498 0.272705 13.7162C1.95655 14.7974 3.95561 15.4278 6.10416 15.4278C13.1026 15.4278 16.928 9.63115 16.928 4.60397L16.9153 4.11145C17.6627 3.57833 18.3094 2.90851 18.8181 2.14597Z", fill="currentColor")
+                                div(class="px-5")
+                                    a(class="inline-block text-coolGray-300 hover:text-coolGray-400", href="#")
+                                        svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                            path(fill-rule="evenodd", clip-rule="evenodd", d="M5.6007 0.181818H14.3992C17.3874 0.181818 19.8184 2.61281 19.8182 5.60074V14.3993C19.8182 17.3872 17.3874 19.8182 14.3992 19.8182H5.6007C2.61276 19.8182 0.181885 17.3873 0.181885 14.3993V5.60074C0.181885 2.61281 2.61276 0.181818 5.6007 0.181818ZM14.3993 18.0759C16.4267 18.0759 18.0761 16.4266 18.0761 14.3993H18.076V5.60074C18.076 3.57348 16.4266 1.92405 14.3992 1.92405H5.6007C3.57343 1.92405 1.92412 3.57348 1.92412 5.60074V14.3993C1.92412 16.4266 3.57343 18.0761 5.6007 18.0759H14.3993ZM4.85721 10.0001C4.85721 7.16424 7.16425 4.85714 10.0001 4.85714C12.8359 4.85714 15.1429 7.16424 15.1429 10.0001C15.1429 12.8359 12.8359 15.1429 10.0001 15.1429C7.16425 15.1429 4.85721 12.8359 4.85721 10.0001ZM6.62805 10C6.62805 11.8593 8.14081 13.3719 10.0001 13.3719C11.8593 13.3719 13.3721 11.8593 13.3721 10C13.3721 8.14058 11.8594 6.6279 10.0001 6.6279C8.14069 6.6279 6.62805 8.14058 6.62805 10Z", fill="currentColor")
+                                div(class="px-5")
+                                    a(class="inline-block text-coolGray-300 hover:text-coolGray-400", href="#")
+                                        svg(width="18", height="18", viewbox="0 0 18 18", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                            path(d="M9 0C4.0275 0 0 4.13211 0 9.22838C0 13.3065 2.5785 16.7648 6.15375 17.9841C6.60375 18.0709 6.76875 17.7853 6.76875 17.5403C6.76875 17.3212 6.76125 16.7405 6.7575 15.9712C4.254 16.5277 3.726 14.7332 3.726 14.7332C3.3165 13.6681 2.72475 13.3832 2.72475 13.3832C1.9095 12.8111 2.78775 12.8229 2.78775 12.8229C3.6915 12.887 4.16625 13.7737 4.16625 13.7737C4.96875 15.1847 6.273 14.777 6.7875 14.5414C6.8685 13.9443 7.10025 13.5381 7.3575 13.3073C5.35875 13.0764 3.258 12.2829 3.258 8.74709C3.258 7.73988 3.60675 6.91659 4.18425 6.27095C4.083 6.03774 3.77925 5.0994 4.263 3.82846C4.263 3.82846 5.01675 3.58116 6.738 4.77462C7.458 4.56958 8.223 4.46785 8.988 4.46315C9.753 4.46785 10.518 4.56958 11.238 4.77462C12.948 3.58116 13.7017 3.82846 13.7017 3.82846C14.1855 5.0994 13.8818 6.03774 13.7917 6.27095C14.3655 6.91659 14.7142 7.73988 14.7142 8.74709C14.7142 12.2923 12.6105 13.0725 10.608 13.2995C10.923 13.5765 11.2155 14.1423 11.2155 15.0071C11.2155 16.242 11.2043 17.2344 11.2043 17.5341C11.2043 17.7759 11.3617 18.0647 11.823 17.9723C15.4237 16.7609 18 13.3002 18 9.22838C18 4.13211 13.9703 0 9 0Z", fill="currentColor")
+                                div(class="px-5")
+                                    a(class="inline-block text-coolGray-300 hover:text-coolGray-400", href="#")
+                                        svg(width="18", height="18", viewbox="0 0 18 18", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                            path(d="M16.2 0H1.8C0.81 0 0 0.81 0 1.8V16.2C0 17.19 0.81 18 1.8 18H16.2C17.19 18 18 17.19 18 16.2V1.8C18 0.81 17.19 0 16.2 0ZM5.4 15.3H2.7V7.2H5.4V15.3ZM4.05 5.67C3.15 5.67 2.43 4.95 2.43 4.05C2.43 3.15 3.15 2.43 4.05 2.43C4.95 2.43 5.67 3.15 5.67 4.05C5.67 4.95 4.95 5.67 4.05 5.67ZM15.3 15.3H12.6V10.53C12.6 9.81004 11.97 9.18 11.25 9.18C10.53 9.18 9.9 9.81004 9.9 10.53V15.3H7.2V7.2H9.9V8.28C10.35 7.56 11.34 7.02 12.15 7.02C13.86 7.02 15.3 8.46 15.3 10.17V15.3Z", fill="currentColor")
+        script(src="https://cdn.jsdelivr.net/npm/apexcharts")
+        script(src="js/charts-demo.js")
